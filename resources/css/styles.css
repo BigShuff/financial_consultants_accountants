@@ -157,6 +157,7 @@ contact:hover {
    color: lightgrey;
    text-align: justify;
    line-height: 1.3;
+   padding: 4%;
 }
 
 .createdBy {
