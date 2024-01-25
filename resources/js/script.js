@@ -1,3 +1,19 @@
+// const myElement = document.createElement('div');
+// myElement.style.width = '100px';
+// myElement.style.height = '100px';
+// myElement.style.background = 'red';
+// myElement.style.transition = 'background-color 1s ease';
+
+// // add the element to your page's HTML
+// document.body.appendChild(myElement);
+
+// // add a click event listener to the element to trigger the color change
+// myElement.addEventListener('click', () => {
+//   myElement.style.background = 'blue';
+// });
+
+
+
 const p1 = document.querySelector('.p1');
 const p2 = document.querySelector('.p2');
 const p3 = document.querySelector('.p3');
@@ -12,12 +28,12 @@ const p11 = document.querySelector('.p11');
 const p12 = document.querySelector('.p12');
 
 let explain1 = document.querySelector('.explain1')
-let explain2 = document.querySelector('.explain2')
 
 p1.addEventListener('click', seeTxt1);
 
 function seeTxt1() {
     explain1.textContent = 'What would happen if you become disabled or develop a chronic illness and cannot take care of yourself? One of the largest expenses you could face later in life is long-term care. With the right plan in place, you can have peace of mind knowing that you will have the care you need if that day ever comes. A financial advisor can help you understand the different options available to you for long-term care planning and how those options can prepare you and your family to manage the future costs of ageing.';
+  
 }
 
 p2.addEventListener('click', seeTxt2);
@@ -53,37 +69,37 @@ function seeTxt6() {
 p7.addEventListener('click', seeTxt7);
 
 function seeTxt7() {
-    explain2.textContent = 'Waiting for contents';
+    explain1.textContent = 'With a personal pension you pay regular monthly amounts or a lump sum to a pension provider who invests it on your behalf. Other people and family members can pay a personal pension on your behalf.';
 }
 
 p8.addEventListener('click', seeTxt8);
 
 function seeTxt8() {
-    explain2.textContent = 'Making sure you have enough money to live on after you retire is an important part of financial planning. Planning and saving for retirement usually begin early in your career, but as retirement day gets closer, you’ll want to review and possibly revise the plan. If you didn’t start early, it’s not too late to plan for a comfortable retirement. A financial advisor can help you quantify and prioritize retirement goals, make a plan to accumulate and invest your money,';
+    explain1.textContent = 'Making sure you have enough money to live on after you retire is an important part of financial planning. Planning and saving for retirement usually begin early in your career, but as retirement day gets closer, you’ll want to review and possibly revise the plan. If you didn’t start early, it’s not too late to plan for a comfortable retirement. A financial advisor can help you quantify and prioritize retirement goals, make a plan to accumulate and invest your money,';
 }
 
 p9.addEventListener('click', seeTxt9);
 
 function seeTxt9() {
-    explain2.textContent = 'The basics of investment management include buying and selling financial assets and other investments, but it is more than that. Managing your investments involves understanding your short- and long-term goals and using that information to make thoughtful investing decisions. A financial advisor can provide the data necessary to help you diversify your investment portfolio to match your desired level of risk and meet your financial goals.';
+    explain1.textContent = 'The basics of investment management include buying and selling financial assets and other investments, but it is more than that. Managing your investments involves understanding your short- and long-term goals and using that information to make thoughtful investing decisions. A financial advisor can provide the data necessary to help you diversify your investment portfolio to match your desired level of risk and meet your financial goals.';
 }
 
 p10.addEventListener('click', seeTxt10);
 
 function seeTxt10() {
-    explain2.textContent = 'Most people borrow money for large purchases like a home or a vehicle. Sometimes a medical bill or home repair can unexpectedly add to your debt load. A professional debt management plan helps you pay off that debt in the most financially advantageous way possible. A financial advisor can help you analyze your debt, prioritize a debt repayment strategy, provide options for debt restructuring, and outline a holistic plan to better manage debt and meet your future financial goals.';
+    explain1.textContent = 'Most people borrow money for large purchases like a home or a vehicle. Sometimes a medical bill or home repair can unexpectedly add to your debt load. A professional debt management plan helps you pay off that debt in the most financially advantageous way possible. A financial advisor can help you analyze your debt, prioritize a debt repayment strategy, provide options for debt restructuring, and outline a holistic plan to better manage debt and meet your future financial goals.';
 }
 
 p11.addEventListener('click', seeTxt11);
 
 function seeTxt11() {
-    explain2.textContent = 'Usually applied to business finances, cash flow analysis helps you balance money coming in with expenditures and savings plans. Personal cash flow analysis can tell you when you can afford to buy a new car or how much money you can add to your savings each month without running short for necessary expenses. A financial advisor can help you clearly see where you spend your money and then apply that insight to help you understand your financial well-being and how to improve it.';
+    explain1.textContent = 'Usually applied to business finances, cash flow analysis helps you balance money coming in with expenditures and savings plans. Personal cash flow analysis can tell you when you can afford to buy a new car or how much money you can add to your savings each month without running short for necessary expenses. A financial advisor can help you clearly see where you spend your money and then apply that insight to help you understand your financial well-being and how to improve it.';
 }
 
 p12.addEventListener('click', seeTxt12);
 
 function seeTxt12() {
-    explain2.textContent = 'Risk, when not managed properly, can be very expensive. Risk management services identify potential risks to your home, your vehicle, and your family, and they help you put the right insurance policies in place to mitigate those risks. A financial advisor can help you develop a strategy to protect your earning power and reduce losses when unexpected things happen.';
+    explain1.textContent = 'Risk, when not managed properly, can be very expensive. Risk management services identify potential risks to your home, your vehicle, and your family, and they help you put the right insurance policies in place to mitigate those risks. A financial advisor can help you develop a strategy to protect your earning power and reduce losses when unexpected things happen.';
 }
 
 
