@@ -8,3 +8,78 @@ body {
    background-image: url("../images/blueAbstractBackground.png");
 }
 
+.spacer{
+   width: 50%;
+   height: 4vh;
+   margin: auto;
+}
+
+header {
+   width: 50%;
+   height: 12%;
+   margin: auto;
+   background-color: rgb(173, 216, 230);
+   box-shadow: 5px 5px rgb(15, 82, 186);
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   border-top: 2px solid lightgray;
+   border-left: 2px solid lightgray;
+   border-radius: 5px;
+}
+
+.coName {
+   font-size: 3rem;
+   font-weight: 600;
+   font-style: normal;
+   color: rgb(15, 82, 186);
+}
+
+main{
+   display: flex;
+ 
+}
+
+.openingTxtSection{
+   width: 50%;
+   padding: 4% 4% 0% 4%;
+   color: lightgray;
+   font-size: 1rem;
+   font-weight: 600;
+   text-align: justify;
+   line-height: 1.8;
+}
+
+.servicesSection {
+border: 2px solid black;
+width: 50%;
+height: 50vh;
+padding-top: 4%;
+}
+
+.services {
+   width: 15%;
+   height: 20%;
+   background-color: rgb(173, 216, 230);
+   box-shadow: 5px 5px rgb(15, 82, 186);
+   color: rgb(15, 82, 186);
+   font-size: 1.5rem;
+   font-weight: 600;
+   font-style: normal;
+}
+
+.education{
+   background-color: rgb(173, 200, 230);
+}
+
+.personal{
+   background-color: rgb(173, 216, 230);
+}
+
+.investments{
+   background-color: rgb(147, 197, 226);
+}
+
+.retirement{
+   background-color: rgb(172, 179, 230);
+}
