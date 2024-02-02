@@ -1,19 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="resources/css/contact.css" rel="stylesheet">
-    <title>contact</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="resources/css/contact.css">
+        <script src="resources/js/script.js" defer></script>
+        <title>Financial Consultants</title>
+    </head>
 <body>
     <!-- Header -->
-    <header class="header">
-        <!-- <img class="trustPilot" src="resources/images/trustPilot.png" -->
-        <!-- alt="Label showing Trust Pilot membership"> -->
-        <img class="logo" src="resources/images/shield.svg" alt="Company logo of a shield and the company letters CFS">
-        <p class="coName">Crestwood Financial Services</p>
-        <nav><a class="contact" href="#">Get In Touch</a></nav>
+    <div class="spacer"></div>
+    <header>
+        <img class="logo" src="resources/images/cfsLogo.png" alt="Company Logo of a shield with CFS emblazoned on it.">
+        <h1 class="coName">Crestwood Financial Services</h1>
     </header>
+    <h2 class="formLabel">Please contact us using the form below or give us a ring:<br><br>
+    Landline: 01604 ****** This maybe attended by voicemail durring work hours.<br>
+    Mobile: ***** ******</h2>
+    <form action="/my-handling-form-page" method="post">
+        <ul>
+          <li>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name" value=""/>
+          </li>
+          <li>
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" name="user_email" />
+          </li>
+          <li>
+            <label for="msg">Message:</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </li>
+          <li class="button">
+            <button type="submit">Send your message</button>
+          </li>
+        </ul>
+      </form>
 </body>
 </html>

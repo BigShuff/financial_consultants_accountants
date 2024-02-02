@@ -1,68 +1,117 @@
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    width: 100%;
-    height: 100vh;
-    font-family: 'Work Sans', sans-serif;
-    background-image: url("../images/abstractBackground.png");
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   width: 100%;
+   height: 100vh;
+   font-family: 'Work Sans', sans-serif;
+   background-image: linear-gradient(to bottom right, black, lightblue);
+}
+
+.spacer {
+   width: 60%;
+   height: 4vh;
+   margin: auto;
+}
+
+header {
+   width: 60%;
+   height: 10vh;
+   margin: auto;
+   background-color: rgb(103, 116, 116);
+   box-shadow: 5px 5px rgb(128, 152, 188);
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+
+   border-radius: 5px;
+}
+
+.logo {
+   width: 5%;
+   height: 85%;
+}
+
+.coName {
+   font-size: 3rem;
+   font-weight: 600;
+   font-style: normal;
+   color: lightgrey;
+}
+
+form {
+   /* Center the form on the page */
+   /* margin: 0 auto; */
+   margin-left: 4%;
+   width: 400px;
+   /* Form outline */
+   padding: 1rem;
+   border: 1px solid #ccc;
+   border-radius: 1em;
+   color: lightgrey;
  }
  
- .header {
-    /* border: 1px solid black; */
-    width: 80%;
-    height: 14vh;
-    display: grid;
-    margin: auto;
-    justify-content: space-between;
-    align-items: center;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 4fr 1fr;
-    /* grid-template-columns: 3fr 4fr 1fr; */
+ ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
  }
  
- .logo {
-    /* border: 2px solid black; */
-    grid-row: 1 / 2;
-    grid-column: 1 / 2;
-    justify-self: center;
-    background-color: white;
+ form li + li {
+   margin-top: 1em;
  }
  
- .coName {
-    /* border: 1px solid black; */
-    font-size: 4rem;
-    grid-row: 1 / 2;
-    grid-column: 2 / 3;
-    justify-self: center;
-    color: white;
-    font-weight: 600;
-    margin: 0;
-    text-shadow: 5px 5px 10px black;
+ label {
+   /* Uniform size & alignment */
+   display: inline-block;
+   width: 90px;
+   text-align: right;
  }
  
- nav {
-    width: 60%;
-    justify-self: right;
+ input,
+ textarea {
+   /* To make sure that all text fields have the same font settings
+      By default, textareas have a monospace font */
+   font: 1rem;
+ 
+   /* Uniform text field size */
+   width: 300px;
+   box-sizing: border-box;
+ 
+   /* Match form field borders */
+   border: 1px solid #999;
  }
  
- .contact {
-    width: 100%;
-    /* border: 1px solid black; */
-    grid-row: 1 / 2;
-    grid-column: 3 / 4;
+ input:focus,
+ textarea:focus {
+   /* Additional highlight for focused elements */
+   border-color: #000;
+ }
+ 
+ textarea {
+   /* Align multiline text fields with their labels */
+   vertical-align: top;
+ 
+   /* Provide space to type some text */
+   height: 5em;
+ }
+ 
+ .button {
+   /* Align buttons with the text fields */
+   padding-left: 90px; /* same size as the label elements */
+ }
+ 
+ button {
+   /* This extra margin represent roughly the same space as the space
+      between the labels and their text fields */
+   margin-left: 0.5em;
+ }
+
+  .formLabel{
+    margin-top: 4%;
+    margin-left: 4%;
     font-size: 1.2rem;
-    text-decoration: none;
-    padding: 5%;
-    background-color: rgb(36, 46, 37);
-    border-radius: 25px;
-    opacity: 0.7;
-    color: rgb(158, 72, 72);
-    border: 2px dashed rgb(158, 72, 72);
- }
- 
- .contact:hover {
-    color: rgb(228, 149, 30);
-    border: 2px dashed rgb(228, 149, 30);
- }
- 
+   font-weight: 700; 
+   font-style: bold;
+   color: lightgray;
+  } 
